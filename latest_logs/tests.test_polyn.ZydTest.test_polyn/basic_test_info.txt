@@ -1,0 +1,30 @@
+tests/test_polyn.py::ZydTest::test_polyn
+--------------------------------------------------------------------
+Last Page: https://doxbin.com/
+ Duration: 20.55s
+  Browser: Chrome 109.0.5414.75 / headless
+   Driver: chromedriver 108.0.5359.71
+Timestamp: 1674078053  (Unix Timestamp)
+     Date: Wednesday, 18 January 2023
+     Time: 10:40:53 PM  (Środkowoeuropejski czas letni, UTC+01:00)
+--------------------------------------------------------------------
+Traceback:   File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 57, in testPartExecutor
+    yield
+  File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 623, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 579, in _callTestMethod
+    if method() is not None:
+       ^^^^^^^^
+  File "C:\Users\bocia\PycharmProjects\seleniumpython\tests\test_polyn.py", line 17, in test_polyn
+    zmienna = self.get_text(tabela)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\site-packages\seleniumbase\fixtures\base_case.py", line 1624, in get_text
+    element = page_actions.wait_for_element_visible(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 428, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "C:\Users\bocia\AppData\Local\Programs\Python\Python311\Lib\site-packages\seleniumbase\fixtures\page_actions.py", line 191, in timeout_exception
+    raise exc(msg)
+
+Exception: Message: 
+ Element {/html/body/div[1]/div[2]/table[2]} was not present after 7 seconds!
